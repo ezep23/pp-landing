@@ -32,7 +32,7 @@
     display: grid;
     place-content: center;
     background-color: #000;
-    max-width: 1200px;
+    max-width: 1100px;
     gap: 30px;
     margin: 60px auto 100px auto;
     padding: 50px 100px;
@@ -231,7 +231,7 @@
                     text-decoration: none;
                     background-color: #000;
                     color: #f1f1f1;
-                    padding: 25px;
+                    padding: 20px;
                     font-size: 1rem;
                 }:hover{
                     color: rgb(12, 198, 255);
@@ -273,7 +273,7 @@
 
             & .cargo{
                 background-color: #000;
-                color: #d6d6d6;
+                color: #eeeeee;
             }
 
             & .links-redes{
@@ -402,6 +402,22 @@
 
 /* Seccion hero*/
 
+@media (max-width: 1015px){
+    .contenedor-negro{
+        display: flex;
+        flex-direction: column;
+        max-width: 700px;
+    } 
+}
+
+@media (max-width: 768px){
+    .contenedor-negro{
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+    } 
+}
+
 /* Slider */
 
 /* Servicios */
@@ -442,8 +458,8 @@
 }
 
 @media (max-width: 600px){
-    .contenedor-equipo{
-        
+    .contenedor-miembros-integrantes{
+        border-radius: 25px;
     }
 }
 
