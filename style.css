@@ -259,8 +259,8 @@
         .contenedor-miembros-integrantes{
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            justify-content: start;
+            align-items: start;
             background-color: #000;
             border: 3px solid #d6d6d6;
             padding: 25px;
@@ -281,6 +281,7 @@
                 background-color: #000;
                 gap: 15px;
                 margin: 5px;
+                padding-left: 27px;
                 
                 & a{
                     text-decoration: none;
@@ -405,8 +406,10 @@
 @media (max-width: 1015px){
     .contenedor-negro{
         display: flex;
-        flex-direction: column;
         max-width: 700px;
+        flex-direction: column;
+        padding: 50px 40px;
+        
     } 
 }
 
@@ -414,7 +417,16 @@
     .contenedor-negro{
         display: flex;
         flex-direction: column;
-        max-width: 500px;
+        padding: 50px 40px;
+    } 
+}
+
+@media (max-width: 580px){
+    .contenedor-negro{
+        display: flex;
+        flex-direction: column;
+        max-width: 350px;
+        padding: 50px 40px;
     } 
 }
 
@@ -487,6 +499,18 @@
         .contenedor-miembros{
             display: flex;
             flex-direction: column;
+
+            & .contenedor-miembros-integrantes{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 25px;
+                
+                & .links-redes{
+                    padding-left: 0;
+                }
+            }
         }
     }
 }
@@ -495,7 +519,15 @@
     .contenedor-equipo{
         .contenedor-miembros{
             .contenedor-miembros-integrantes{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
                 border-radius: 25px;
+
+                & .links-redes{
+                    padding-left: 0;
+                }
         
                 & img{
                     width: 250px;
