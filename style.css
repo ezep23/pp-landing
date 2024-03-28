@@ -418,7 +418,39 @@
     } 
 }
 
-/* Slider */
+@media (max-width: 600px){ 
+    .contenedor-hero{
+        display: flex;
+    
+        &img{
+            height: 250px;
+            width: 250px;
+        }
+    }
+}
+
+/* Proyectos */
+
+@media (max-width: 768px){
+    .container-proyectos{
+        .container-proyecto{
+            display: flex;
+            flex-direction: column;
+            border: 2px solid #d6d6d6;
+        }
+    
+        .container-proyecto-invertido{
+            display: flex;
+            flex-direction: column;
+            border: 2px solid #d6d6d6;
+        }
+    
+        .proyecto-textos{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
 
 /* Servicios */
 @media (max-width: 1017px){ 
@@ -458,8 +490,17 @@
 }
 
 @media (max-width: 600px){
-    .contenedor-miembros-integrantes{
-        border-radius: 25px;
+    .contenedor-equipo{
+        .contenedor-miembros{
+            .contenedor-miembros-integrantes{
+                border-radius: 25px;
+        
+                & img{
+                    width: 250px;
+                    height: 250px;
+                }
+            }
+        }
     }
 }
 
