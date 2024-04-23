@@ -66,8 +66,6 @@ body.active{
     }
 }
 
-
-
 /* Contenedor hero*/ 
 
 .contenedor-hero{
@@ -120,7 +118,6 @@ body.active{
         }
     }
 }
-
 
 /* Proyectos */
 
@@ -234,7 +231,7 @@ body.active{
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 40px;
+            padding: 20px;
             border: 3px solid #d6d6d6;
             background-color: #000;
             gap: 15px;
@@ -332,8 +329,6 @@ body.active{
 }
 
 /* Boton arriba */
-
-
 
 /* Slider tecnologias */
 
