@@ -10,19 +10,19 @@
 
 .titulos-seccion{
     text-align: start;
-    background-color: #000;
+    background-color: #303030;
     margin: 30px;
 
     & .encabezado{
         font-size: 2rem;
         font-weight: 600;
         color: #f1f1f1;
-        background-color: #000;
+        background-color: #303030;
     }
 
     & p{
         color: #d6d6d6;
-        background-color: #000;
+        background-color: #303030;
     }
 }
 
@@ -31,7 +31,7 @@
 .contenedor-negro{
     display: grid;
     place-content: center;
-    background-color: #000;
+    background-color: #303030;
     max-width: 1100px;
     gap: 30px;
     margin: 60px auto 100px auto;
@@ -47,11 +47,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    background-color: #000;
+    background-color: #303030;
 
-    & img{
-        width: 350px;
-        height: 350px;
+    & h1{
+        font-size: 200px;
+        background-color: #303030;
+        color: #f1f1f1;
+        margin: 1%;
+
     }
 
     .hero-texto{
@@ -61,35 +64,20 @@
         gap: 20px;
         padding-bottom: 8%;
         padding-left: 18px;
-        background-color: #000;
+        background-color: #303030;
 
-        & h1{
+        & h2{
             font-size: 2rem;
             color: #f1f1f1;
-            background-color: #000;
+            background-color: #303030;
         }
 
         & p{
-            background-color: #000;
+            background-color: #303030;
             color: #d6d6d6;
             text-wrap:pretty;
         }
 
-        & button{
-            background-color: #000;
-            color: #d6d6d6;
-            border: 2px solid rgb(12, 198, 255);
-
-            & a{
-                text-decoration: none;
-                background-color: #000;
-                color: #f1f1f1;
-                padding: 25px;
-                font-size: 1rem;
-            }:hover{
-                color: rgb(12, 198, 255);
-            }
-        }
     }
 }
 
@@ -100,17 +88,18 @@
     flex-direction: column;
     justify-content: space-between;
     margin:auto;
-    background-color: #000;
+    background-color: #303030;
 
     .container-proyecto{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        background-color: #000;
-        margin: 30px;
+        background-color: #303030;
+        margin: 20px;
         padding: 30px;
         gap: 40px;
+        border: 3px solid #d6d6d6;
     }
 
     .container-proyecto-invertido{
@@ -118,10 +107,11 @@
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-between;
-        background-color: #000;
-        margin: 30px;
+        background-color: #303030;
+        margin: 20px;
         padding: 30px;
         gap: 40px;
+        border: 3px solid #d6d6d6;
     }
 
     .proyecto-imagen{
@@ -133,16 +123,16 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #000;
+        background-color: #303030;
         gap: 4px;
 
         & p{
             color: #d6d6d6;
-            background-color: #000;
+            background-color: #303030;
         }
 
         & .proyecto-textos-titulo{
-            background-color: #000;
+            background-color: #303030;
             color: #f1f1f1;
             font-weight: bold;
             font-size: 2rem;
@@ -190,15 +180,13 @@
 .container-servicios{
     display: flex;
     flex-direction: column;
-    text-align: start;
-    background-color: #000;
+    text-align: center;
+    background-color: #303030;
 
     .container-servicio{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        background-color: #000;
+        display: grid;
+        gap: 25px;
+        background-color: #303030;
 
         & .servicio{
             display: flex;
@@ -207,32 +195,32 @@
             justify-content: center;
             padding: 20px;
             border: 3px solid #d6d6d6;
-            background-color: #000;
+            background-color: #303030;
             gap: 15px;
 
             & svg{
-                background-color: #000;
+                background-color: #303030;
                 color:#f1f1f1;
             }
             .servicio-titulo{
-                background-color: #000;
+                background-color: #303030;
                 color: #d6d6d6;
             }
 
             .servicio-texto{
-                background-color: #000;
+                background-color: #303030;
                 color: #d6d6d6;
             }
 
             & button{
-                background-color: #000;
+                background-color: #303030;
                 color: #d6d6d6;
                 border: 2px solid rgb(12, 198, 255);
                 margin-top: 20px;
     
                 & a{
                     text-decoration: none;
-                    background-color: #000;
+                    background-color: #303030;
                     color: #f1f1f1;
                     padding: 20px;
                     font-size: 1rem;
@@ -250,48 +238,48 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #000;
+    background-color: #303030;
 
     .contenedor-miembros{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        background-color: #000;
+        background-color: #303030;
 
         .contenedor-miembros-integrantes{
             display: flex;
             flex-direction: column;
             justify-content: start;
             align-items: start;
-            background-color: #000;
+            background-color: #303030;
             border: 3px solid #d6d6d6;
-            padding: 25px;
+            border-radius: 25px;
             margin: 20px;
 
             & img{
                 aspect-ratio: 4 / 4;
-                border-radius: 5%;
+                border-radius: 6% 6% 0% 0%;
             }
 
             & .cargo{
-                background-color: #000;
+                background-color: #303030;
                 color: #eeeeee;
             }
 
             & .links-redes{
                 display: flex;
-                background-color: #000;
+                background-color: #303030;
                 gap: 15px;
                 margin: 5px;
                 padding-left: 27px;
                 
                 & a{
                     text-decoration: none;
-                    background-color: #000;
+                    background-color: #303030;
 
                     & svg{
-                        background-color: #000;
+                        background-color: #303030;
                         color: #d6d6d6;
                     }:hover{
                         color:rgb(12, 198, 255)
@@ -358,17 +346,17 @@
 .footer{
     display: grid;
     place-items: center;
-    background-color: #000;
+    background-color: #303030;
     padding: 5% 5% 2% 5%;
 
     .footer-links{
-        background-color: #000;
+        background-color: #303030;
         display: flex;
         gap: 1rem;
         padding-bottom: 1.5%;
 
         & a{
-            background-color: #000;
+            background-color: #303030;
             text-decoration: none;
             color: #d6d6d6;
         }:hover{
@@ -378,25 +366,25 @@
 
     .footer-redes{
         display: flex;
-        background-color: #000;
+        background-color: #303030;
         gap: 1rem;
         padding-bottom: 1.5%;
 
         & a {
-            background-color: #000;
+            background-color: #303030;
         }
         & a > svg{
-            background-color: #000;
+            background-color: #303030;
             color:#d6d6d6;
         }:hover{
-            background-color: #000;
+            background-color: #303030;
             color: rgb(12, 198, 255);
         }
     }
 
     .footer-copyright{
         color: #d6d6d6;
-        background-color: #000;
+        background-color: #303030;
     }
 }
 
@@ -508,14 +496,14 @@
             & .servicio{
                 padding: 40px;
                 & button{
-                    background-color: #000;
+                    background-color: #303030;
                     color: #d6d6d6;
                     border: 2px solid rgb(12, 198, 255);
                     margin-top: 20px;
         
                     & a{
                         text-decoration: none;
-                        background-color: #000;
+                        background-color: #303030;
                         color: #f1f1f1;
                         padding: 20px;
                         font-size: 0.5rem;
